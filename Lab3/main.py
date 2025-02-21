@@ -3,7 +3,7 @@ from xml.dom import minidom # Importar librería minidom
 from Cliente import Cliente # Importar la clase Cliente
 from Banco import Banco # Importar la clase Banco
 
-listaBancos = []
+listaBancos = [] #Recordatorio: En el proyecto no es permitido utilizar listas nativas como listaBancos
 def Menu():
     print(' ------------- Menu Principal -------------')
     print('1. Leer archivo XML (ElementTree)')
@@ -30,7 +30,7 @@ def LeerArchivoET(rutaArchivo):
         ant = int(banco_elem.find('Antiguedad').text) # Obtener el texto de la etiqueta Antiguedad
         sucursales = int(banco_elem.find('sucursales').text)
         
-        bancoObj = Banco(nombreBanco, direccionBanco, ant, sucursales, [])
+        bancoObj = Banco(nombreBanco, direccionBanco, ant, sucursales, []) #Recordatorio: En el proyecto no es permitido utilizar listas nativas como []
 
         for cliente_elem in banco_elem.find('Clientes').findall('Cliente'):
             nombreCliente = cliente_elem.find('Nombre').text
@@ -39,9 +39,9 @@ def LeerArchivoET(rutaArchivo):
             edadCliente = int(cliente_elem.find('edad').text)
 
             clienteObj = Cliente(nombreCliente, cuiCliente, saldoCliente, edadCliente)
-            bancoObj.clientes.append(clienteObj)
+            bancoObj.clientes.append(clienteObj) #Recordatorio: En el proyecto no es permitido utilizar listas nativas como clientes
 
-        listaBancos.append(bancoObj)
+        listaBancos.append(bancoObj) #Recordatorio: En el proyecto no es permitido utilizar listas nativas como listaBancos
 
     print('Datos leídos con éxito con ElementTree')
     for b in listaBancos:
@@ -72,7 +72,7 @@ def LeerArchivoMD(rutaArchivo):
             clienteObj = Cliente(nombreCliente, cuiCliente, saldoCliente, edadCliente)
             bancoObj.clientes.append(clienteObj)
 
-        listaBancos.append(bancoObj)
+        listaBancos.append(bancoObj) #Recordatorio: En el proyecto no es permitido utilizar listas nativas como listaBancos
     print('Datos leídos con éxito con minidom')
 
     for b in listaBancos:
@@ -142,7 +142,7 @@ if __name__ == '__main__':
 
         elif opc == 5:
             print('')
-            listaBancos = []
+            listaBancos = [] #Recordatorio: En el proyecto no es permitido utilizar listas nativas como listaBancos
         elif opc == 6:
             print('Adios')
             break
