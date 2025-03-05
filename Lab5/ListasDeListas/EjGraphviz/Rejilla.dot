@@ -1,0 +1,43 @@
+digraph G {
+label = <<TABLE BORDER="0" CELLSPACING="0">
+<TR><TD><B><FONT POINT-SIZE="16">Ejemplo Rejilla</FONT></B></TD></TR>
+<TR><TD>
+    <TABLE border='2' cellspacing='5' cellpadding='10'>
+	<TR>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>LAV</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>VAL</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>VAL</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>VAL</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>VAL</TD>
+	</TR>
+	<TR>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>VAR</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>RAV</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>GHI</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>VAL</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>VAL</TD>
+	</TR>
+	<TR>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>LAV</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>AVL</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>ALV</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>LAV</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>LAV</TD>
+	</TR>
+	<TR>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>VAL</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>ILL</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>KEQ</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>DCC</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>LAV</TD>
+	</TR>
+	<TR>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>VAR</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>ILL</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>KQA</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>CDC</TD>
+		<TD border='3' bgcolor='greenyellow' gradientangle='270'>LAV</TD>
+	</TR>
+	</TABLE></TD></TR>
+    </TABLE>>;
+}
