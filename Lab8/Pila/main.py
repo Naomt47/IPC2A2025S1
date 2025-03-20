@@ -1,0 +1,22 @@
+from Pila import Pila
+
+nuevaPila = Pila()
+
+nuevaPila.Apilar(1, "Las cronicas de narnia", "C.S. Lewis")
+nuevaPila.graficar("add1")
+nuevaPila.Apilar(2, "Maria", "Jorge Isaacs")
+nuevaPila.graficar("add2")
+nuevaPila.Apilar(3, "Cinco semanas en globo", "Julio Verne")
+nuevaPila.graficar("add3")
+nuevaPila.Apilar(4, "Renegados", "Marissa Meyer")
+nuevaPila.graficar("add4")
+nuevaPila.Desapilar()
+nuevaPila.graficar("delete1")
+nuevaPila.Desapilar()
+nuevaPila.graficar("delete2")
+nuevaPila.Desapilar()
+nuevaPila.graficar("delete3")
+nuevaPila.Desapilar()
+nuevaPila.graficar("delete4")
+nuevaPila.Desapilar()
+nuevaPila.graficar("delete5")

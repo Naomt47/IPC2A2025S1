@@ -19,6 +19,14 @@ class ListaSimple():
             temp.siguiente = self.primero
             self.primero = temp
         
+    def agregarUltimo(self, nombre, cui, saldo, edad):
+        nuevo = Cliente(nombre, cui, saldo, edad)
+        if self.estaVacia() == True:
+            self.primero = self.ultimo = nuevo
+        else:
+            temp = nuevo
+            self.ultimo.siguiente = temp
+            self.ultimo = temp
 
     def recorrer(self):
         temp = self.primero

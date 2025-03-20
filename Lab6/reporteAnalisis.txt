@@ -1,0 +1,6 @@
+Reporte Analisis de Archivo Texto_Entrada.txt 
+Numero de lineas que comienzan con una vocalf: 3 
+Numero de lineas que comienzan con una consonante: 2 
+Numero de lineas que contienen numeros : 2 
+Numero de lineas que en mayusculas: 3 
+- HOY ES UN DÍA EN MAYÚSCULAS. 
