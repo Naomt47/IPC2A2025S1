@@ -60,3 +60,20 @@ def procesarXML(request):
             return render(request, 'carga.html', contexto)
     except:
         return render(request, 'carga.html', contexto)
+    
+def verTablaVentas(request):
+    ctx = {
+        'ventas': None
+    }
+    response = requests.get(endpoint + 'venta/ventas')
+    data = response.json()
+    if response.status_code == 200:
+        ctx['ventas'] = data
+    return render(request, 'ventas.html', ctx)
+
+def verVentasMensuales(request):
+    return render(request, 'ventaspormes.html')
+
+
+def verPdf(request):
+    return render(request, 'verpdf.html')
